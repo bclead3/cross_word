@@ -1,0 +1,13 @@
+Style/Documentation:
+  Enabled: false
+
+AllCops:
+  Exclude:
+    - spec/**/*.rb
+
+# Custom Rules
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
